@@ -1,6 +1,8 @@
 pkg install git
+
 ‎pkg update && pkg upgrade -y
 ‎
+
 ‎pkg install python -y
 ‎
 ‎pkg install nano -y
@@ -10,9 +12,13 @@ pkg install git
 ‎pip install ddddocr
 ‎
 ‎pkg update && pkg upgrade -y
+
 ‎pkg install python git -y
+
 ‎git clone https://github.com/ab1rh4ck5/THRESHX.git
 
 ‎cd THRESHX
+
 ‎pip install -r requirements.txt
+
 ‎python tr.py
